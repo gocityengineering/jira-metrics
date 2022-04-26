@@ -1,0 +1,5 @@
+server: acme.atlassian.net
+interval_seconds:
+queues:
+  - ACMESD
+boards: []

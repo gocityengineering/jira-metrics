@@ -1,0 +1,5 @@
+server: localhost
+interval_seconds: 600
+metrics: []
+boards: []
+queues: []

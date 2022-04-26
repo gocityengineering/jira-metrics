@@ -1,0 +1,13 @@
+server: acme.atlassian.net
+interval_seconds: 600
+queues:
+  -
+    name: ACMESD
+    time_zone: 'UTC'
+boards:
+  -
+    name: ACME
+    in_progress_labels: '"in progress","pending close"'
+    in_preparation_labels: '"backlog","selected for development"'
+    business_as_usual_epics: '"business as usual","tech debt","incident"'
+metrics: {}
